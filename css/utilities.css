@@ -1,0 +1,45 @@
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{
+    padding:10px 40px;
+    font-size:20px;
+    font-weight:600;
+    border:2px solid transparent;
+    cursor:pointer;
+    text-transform: uppercase;
+    transition:all .3s ease;
+}
+.btn-primary{
+    background:var(--primary);
+    color:var(--dark);
+}
+.btn-primary:hover{
+    background:transparent;
+    border-color:var(--primary);
+    color:var(--primary);
+}
+.btn-secondary{
+    background:transparent;
+    color:var(--primary);
+    border-color:var(--primary);
+}
+.btn-secondary:hover{
+    background:var(--primary);
+    color:var(--dark);
+}
+.flex-1{
+    flex:1;
+    justify-content: right;
+}
+.justify-center{
+    justify-content: center;
+}
+/*  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> */
