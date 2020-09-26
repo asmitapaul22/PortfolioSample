@@ -110,7 +110,7 @@ section{
 
 }
 .social a:hover{
-  background: var(--primary);
+  background: red;
 }
 .section-heading{
   color:var(--secondary);
